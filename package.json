@@ -5,7 +5,7 @@
   "main": "server.js",
   "proxy": "http://127.0.0.1:5000",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
