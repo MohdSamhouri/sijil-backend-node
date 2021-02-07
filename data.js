@@ -266,13 +266,13 @@ const data = {
   servicesList: [
     {
       titleEn: "Contract Details",
-      titleAr: "الخدمة بالعربية",
+      titleAr: "تفاصيل العقد",
       link: "contractDetails",
     },
     {
-      titleEn: "Repossession Request",
-      titleAr: "الخدمة بالعربية",
-      link: "RepossessionRequest",
+      titleEn: "Transfer of Rights",
+      titleAr: "نقل الحقوق",
+      link: "TransferOfRights",
     },
     {
       titleEn: "Contract Details",
@@ -293,6 +293,176 @@ const data = {
       titleEn: "Repossession Request",
       titleAr: "الخدمة بالعربية",
       link: "RepossessionRequest",
+    },
+  ],
+  UsersListEn: [
+    {
+      userName: "ahmedmagdy",
+      fullName: "ahmed magdy hassan",
+      role: "Manager",
+      privileges: ["Chart and Diagrams", "Analytics", "Analytical reports"],
+    },
+    {
+      userName: "ahmedmagdy",
+      fullName: "ahmed magdy hassan",
+      role: "Manager",
+      privileges: ["Chart and Diagrams", "Analytics", "Analytical reports"],
+    },
+    {
+      userName: "ahmedmagdy",
+      fullName: "ahmed magdy hassan",
+      role: "Manager",
+      privileges: ["Chart and Diagrams", "Analytics", "Analytical reports"],
+    },
+    {
+      userName: "ahmedmagdy",
+      fullName: "ahmed magdy hassan",
+      role: "Manager",
+      privileges: ["Chart and Diagrams", "Analytics", "Analytical reports"],
+    },
+    {
+      userName: "ahmedmagdy",
+      fullName: "ahmed magdy hassan",
+      role: "Manager",
+      privileges: ["Chart and Diagrams", "Analytics", "Analytical reports"],
+    },
+    {
+      userName: "ahmedmagdy",
+      fullName: "ahmed magdy hassan",
+      role: "Manager",
+      privileges: ["Chart and Diagrams", "Analytics", "Analytical reports"],
+    },
+  ],
+  UsersListAr: [
+    {
+      userName: "ahmedmagdy",
+      fullName: "أحمد مجدى حسن",
+      role: "مدير",
+      privileges: ["بيانات إحصائية", "احصائيات", "تقارير إحصائية"],
+    },
+    {
+      userName: "ahmedmagdy",
+      fullName: "أحمد مجدى حسن",
+      role: "مدير",
+      privileges: ["بيانات إحصائية", "احصائيات", "تقارير إحصائية"],
+    },
+    {
+      userName: "ahmedmagdy",
+      fullName: "أحمد مجدى حسن",
+      role: "مدير",
+      privileges: ["بيانات إحصائية", "احصائيات", "تقارير إحصائية"],
+    },
+    {
+      userName: "ahmedmagdy",
+      fullName: "أحمد مجدى حسن",
+      role: "مدير",
+      privileges: ["بيانات إحصائية", "احصائيات", "تقارير إحصائية"],
+    },
+    {
+      userName: "ahmedmagdy",
+      fullName: "أحمد مجدى حسن",
+      role: "مدير",
+      privileges: ["بيانات إحصائية", "احصائيات", "تقارير إحصائية"],
+    },
+    {
+      userName: "ahmedmagdy",
+      fullName: "أحمد مجدى حسن",
+      role: "مدير",
+      privileges: ["بيانات إحصائية", "احصائيات", "تقارير إحصائية"],
+    },
+  ],
+  InvoicesEn: [
+    {
+      name: "name 1",
+      date: "38 Jan 2021 at 12:00 am",
+      type: "type",
+      download: [
+        { type: "pdf", url: "url" },
+        { type: "excel", url: "url" },
+      ],
+    },
+    {
+      name: "name 2",
+      date: "38 Jan 2021 at 12:00 am",
+      type: "type",
+      download: [
+        { type: "pdf", url: "url" },
+        { type: "excel", url: "url" },
+      ],
+    },
+    {
+      name: "name 3",
+      date: "38 Jan 2021 at 12:00 am",
+      type: "type",
+      download: [
+        { type: "pdf", url: "url" },
+        { type: "excel", url: "url" },
+      ],
+    },
+    {
+      name: "name 4",
+      date: "38 Jan 2021 at 12:00 am",
+      type: "type",
+      download: [
+        { type: "pdf", url: "url" },
+        { type: "excel", url: "url" },
+      ],
+    },
+    {
+      name: "name 5",
+      date: "38 Jan 2021 at 12:00 am",
+      type: "type",
+      download: [
+        { type: "pdf", url: "url" },
+        { type: "excel", url: "url" },
+      ],
+    },
+  ],
+  InvoicesAr: [
+    {
+      name: "إسم 1",
+      date: "23 يناير 2020 12:0 ص",
+      type: "نوع",
+      download: [
+        { type: "pdf", url: "url" },
+        { type: "excel", url: "url" },
+      ],
+    },
+    {
+      name: "إسم 2",
+      date: "23 يناير 2020 12:0 ص",
+      type: "نوع",
+      download: [
+        { type: "pdf", url: "url" },
+        { type: "excel", url: "url" },
+      ],
+    },
+    {
+      name: "إسم 3",
+      date: "23 يناير 2020 12:0 ص",
+      type: "نوع",
+      download: [
+        { type: "pdf", url: "url" },
+        { type: "excel", url: "url" },
+      ],
+    },
+    {
+      name: "إسم 4",
+      date: "23 يناير 2020 12:0 ص",
+      type: "نوع",
+      download: [
+        { type: "pdf", url: "url" },
+        { type: "excel", url: "url" },
+      ],
+    },
+    {
+      name: "إسم 5",
+      date: "23 يناير 2020 12:0 ص",
+      type: "نوع",
+      download: [
+        { type: "pdf", url: "url" },
+        { type: "excel", url: "url" },
+      ],
     },
   ],
 };

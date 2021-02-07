@@ -30,6 +30,26 @@ app.get("/api/servicestatuses", (req, res) => {
 app.get("/api/serviceslist", (req, res) => {
   res.send(data.servicesList);
 });
+app.get("/api/users", (req, res) => {
+  req.query.lang == "ar"
+    ? res.send(data.UsersListAr)
+    : res.send(data.UsersListEn);
+});
+app.get("/api/invoices", (req, res) => {
+  req.query.lang == "ar"
+    ? res.send([
+        ...data.InvoicesAr,
+        ...data.InvoicesAr,
+        ...data.InvoicesAr,
+        ...data.InvoicesAr,
+      ])
+    : res.send([
+        ...data.InvoicesEn,
+        ...data.InvoicesEn,
+        ...data.InvoicesEn,
+        ...data.InvoicesEn,
+      ]);
+});
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
