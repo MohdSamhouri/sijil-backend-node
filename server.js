@@ -50,6 +50,11 @@ app.get("/api/invoices", (req, res) => {
         ...data.InvoicesEn,
       ]);
 });
+app.get("/api/contractdetails", (req, res) => {
+  req.query.lang == "ar"
+    ? res.send(data.ContractDetailsAr)
+    : res.send(data.ContractDetailsEn);
+});
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
