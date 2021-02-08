@@ -267,7 +267,7 @@ const data = {
     {
       titleEn: "Contract Registration",
       titleAr: "تفاصيل العقد",
-      link: "contractDetails",
+      link: "services/contractDetails",
       iconUrl: "serviece icons/service-icon1.jpg",
     },
 
@@ -286,13 +286,13 @@ const data = {
     {
       titleEn: "Transfer of Rights",
       titleAr: "نقل الحقوق",
-      link: "TransferOfRights",
+      link: "services/transferOfRights",
       iconUrl: "serviece icons/transfer-of-rights.png",
     },
     {
       titleEn: "General Enquiry",
       titleAr: "استفسار عام",
-      link: "generalEnquiry",
+      link: "services/generalEnquiry",
       iconUrl: "serviece icons/general-enquiry.png",
     },
     {
@@ -518,5 +518,65 @@ const data = {
     amountOfUnpaidInstallments: "01/12/2020",
     dispensedAmount: "2000",
   },
+  Lessees: [
+    {
+      fullName: "Abdullah Alonzi",
+      arabicFullName: "عبدالله العنزي",
+      idNumber: "1234",
+      expiryDate: "10/10/2021",
+      contactNumber: "123",
+      applicationType: "Primary",
+      Nationality: "Saudi Arabia",
+      city: "Riyadh",
+    },
+    {
+      fullName: "Abdullah Alonzi",
+      arabicFullName: "عبدالله العنزي",
+      idNumber: "1234",
+      expiryDate: "10/10/2021",
+      contactNumber: "123",
+      applicationType: "Primary",
+      Nationality: "Saudi Arabia",
+      city: "Riyadh",
+    },
+  ],
+  Certificates: [
+    {
+      certificateType: "Certificate 1",
+      certificateId: "123",
+      file: "Sama.pdf",
+      download: [
+        { type: "view", url: "url" },
+        { type: "download", url: "url" },
+      ],
+    },
+    {
+      certificateType: "Certificate 2",
+      certificateId: "123",
+      file: "Sama.pdf",
+      download: [
+        { type: "view", url: "url" },
+        { type: "download", url: "url" },
+      ],
+    },
+    {
+      certificateType: "Certificate 3",
+      certificateId: "123",
+      file: "Sama.pdf",
+      download: [
+        { type: "view", url: "url" },
+        { type: "download", url: "url" },
+      ],
+    },
+  ],
+  SingleSearch: [
+    {
+      "#": 1,
+      type: "Vehicle",
+      plateNumber: "123123",
+      assetRegistrationNumber: "23124sad",
+      underRepossession: "no",
+    },
+  ],
 };
 module.exports = data;

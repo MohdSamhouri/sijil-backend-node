@@ -55,6 +55,15 @@ app.get("/api/contractdetails", (req, res) => {
     ? res.send(data.ContractDetailsAr)
     : res.send(data.ContractDetailsEn);
 });
+app.get("/api/lessees", (req, res) => {
+  res.send(data.Lessees);
+});
+app.get("/api/certificates", (req, res) => {
+  res.send(data.Certificates);
+});
+app.get("/api/singlesearch", (req, res) => {
+  res.send(data.SingleSearch);
+});
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
