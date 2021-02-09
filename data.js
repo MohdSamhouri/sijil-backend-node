@@ -304,7 +304,7 @@ const data = {
     {
       titleEn: "Contract Amendment",
       titleAr: "تعديل العقد",
-      link: "contractAmendment",
+      link: "services/contractAmendment",
       iconUrl: "serviece icons/contract-amendment.png",
     },
     {
@@ -576,6 +576,44 @@ const data = {
       plateNumber: "123123",
       assetRegistrationNumber: "23124sad",
       underRepossession: "no",
+    },
+  ],
+  SearchResults: [
+    {
+      fileName: "file name " + Math.floor(Math.random() * 91),
+      contractOpenDate:
+        Math.floor(Math.random() * 91) + " Jan 2021 at 12:00 am",
+      status: "status",
+      contractType: "contract type",
+      modifiedOn: "13 Jan 2002 at 12:00 pm",
+      download: { excel: "http://file.xlx", pdf: "http://file.pdf" },
+    },
+    {
+      fileName: "file name " + Math.floor(Math.random() * 91),
+      contractOpenDate:
+        Math.floor(Math.random() * 91) + " Jan 2021 at 12:00 am",
+      status: "status",
+      contractType: "contract type",
+      modifiedOn: "13 Jan 2002 at 12:00 pm",
+      download: { excel: "http://file.xlx", pdf: "http://file.pdf" },
+    },
+    {
+      fileName: "file name " + Math.floor(Math.random() * 91),
+      contractOpenDate:
+        Math.floor(Math.random() * 91) + " Jan 2021 at 12:00 am",
+      status: "status",
+      contractType: "contract type",
+      modifiedOn: "13 Jan 2002 at 12:00 pm",
+      download: { excel: "http://file.xlx", pdf: "http://file.pdf" },
+    },
+    {
+      fileName: "file name " + Math.floor(Math.random() * 91),
+      contractOpenDate:
+        Math.floor(Math.random() * 91) + " Jan 2021 at 12:00 am",
+      status: "status",
+      contractType: "contract type",
+      modifiedOn: "13 Jan 2002 at 12:00 pm",
+      download: { excel: "http://file.xlx", pdf: "http://file.pdf" },
     },
   ],
 };

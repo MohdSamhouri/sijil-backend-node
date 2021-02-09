@@ -64,6 +64,9 @@ app.get("/api/certificates", (req, res) => {
 app.get("/api/singlesearch", (req, res) => {
   res.send(data.SingleSearch);
 });
+app.get("/api/searchresults", (req, res) => {
+  res.send(data.SearchResults);
+});
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
