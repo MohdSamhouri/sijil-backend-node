@@ -67,6 +67,11 @@ app.get("/api/singlesearch", (req, res) => {
 app.get("/api/searchresults", (req, res) => {
   res.send(data.SearchResults);
 });
+app.post("/api/adduser", (req, res) => {
+  // req.body
+  console.log(`🚀 ~ file: server.js ~ line 73 ~ req.body`, req.body);
+  res.send(req.body);
+});
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);

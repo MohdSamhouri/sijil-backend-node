@@ -266,21 +266,21 @@ const data = {
   servicesList: [
     {
       titleEn: "Contract Registration",
-      titleAr: "تفاصيل العقد",
-      link: "services/contractDetails",
+      titleAr: "تسجيل العقد",
+      link: "services/contractRegistration",
       iconUrl: "serviece icons/service-icon1.jpg",
     },
 
     {
       titleEn: "Payment Update",
       titleAr: "تحديث الدفع",
-      link: "paymentUpdate",
+      link: "services/paymentUpdate",
       iconUrl: "serviece icons/payment.png",
     },
     {
       titleEn: "Repossession Certificate",
       titleAr: "شهادة التملك",
-      link: "RepossessionCertificate",
+      link: "services/RepossessionCertificate",
       iconUrl: "serviece icons/repossision.png",
     },
     {
@@ -298,7 +298,7 @@ const data = {
     {
       titleEn: "Contract Closure",
       titleAr: "إقفال العقد",
-      link: "contractClosure",
+      link: "services/contractClosure",
       iconUrl: "serviece icons/contract-closure.png",
     },
     {
@@ -310,7 +310,7 @@ const data = {
     {
       titleEn: "Enforcement Certificate",
       titleAr: "شهادة الإنفاذ",
-      link: "enforcementCertificate",
+      link: "services/enforcementCertificate",
       iconUrl: "serviece icons/repossision.png",
     },
   ],
