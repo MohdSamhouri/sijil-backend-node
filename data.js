@@ -267,7 +267,7 @@ const data = {
     {
       titleEn: "Contract Registration",
       titleAr: "تسجيل العقد",
-      link: "services/contractRegistration",
+      link: "services/contractregistration",
       iconUrl: "serviece icons/service-icon1.jpg",
     },
 
@@ -298,7 +298,7 @@ const data = {
     {
       titleEn: "Contract Closure",
       titleAr: "إقفال العقد",
-      link: "services/contractClosure",
+      link: "services/contractclosure",
       iconUrl: "serviece icons/contract-closure.png",
     },
     {
