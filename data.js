@@ -616,5 +616,52 @@ const data = {
       download: { excel: "http://file.xlx", pdf: "http://file.pdf" },
     },
   ],
+  NavigationList: [
+    {
+      title: "profile",
+      link: "/profile",
+      icon: "user",
+    },
+    {
+      title: "search",
+      link: "/search",
+      icon: "search",
+    },
+    {
+      title: "home",
+      link: "/home",
+      icon: "th",
+    },
+    {
+      title: "services",
+      link: "/services",
+      icon: "suitcase",
+    },
+    {
+      title: "responses",
+      link: "/responses",
+      icon: "comment",
+    },
+    {
+      title: "invoices",
+      link: "/invoices",
+      icon: "sticky-note",
+    },
+    {
+      title: "documentation",
+      link: "/documentation",
+      icon: "file",
+    },
+    {
+      title: "analyticalreports",
+      link: "/analyticalreports",
+      icon: "pie-chart",
+    },
+    {
+      title: "users",
+      link: "/users",
+      icon: "users",
+    },
+  ],
 };
 module.exports = data;
