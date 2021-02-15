@@ -313,6 +313,18 @@ const data = {
       link: "services/enforcementCertificate",
       iconUrl: "serviece icons/repossision.png",
     },
+    {
+      titleEn: "Factoring",
+      titleAr: "التخصيم",
+      link: "services/factoring",
+      iconUrl: "serviece icons/contract-amendment.png",
+    },
+    {
+      titleEn: "Sale Of Assets",
+      titleAr: "بيع الأصول",
+      link: "services/saleofassets",
+      iconUrl: "serviece icons/repossision.png",
+    },
   ],
   UsersListEn: [
     {
